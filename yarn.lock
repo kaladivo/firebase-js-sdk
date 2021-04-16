@@ -7474,7 +7474,7 @@ firebase-admin@9.4.2:
     "@google-cloud/storage" "^5.3.0"
 
 "firebase-exp@file:packages-exp/firebase-exp":
-  version "0.900.23"
+  version "9.0.0-beta.1"
   dependencies:
     "@firebase/analytics-compat" "0.0.900"
     "@firebase/analytics-exp" "0.0.900"
@@ -7482,8 +7482,8 @@ firebase-admin@9.4.2:
     "@firebase/app-exp" "0.0.900"
     "@firebase/auth-compat" "0.0.900"
     "@firebase/auth-exp" "0.0.900"
-    "@firebase/database" "0.9.8"
-    "@firebase/firestore" "2.2.3"
+    "@firebase/database" "0.9.10"
+    "@firebase/firestore" "2.2.4"
     "@firebase/functions-compat" "0.0.900"
     "@firebase/functions-exp" "0.0.900"
     "@firebase/messaging-compat" "0.0.900"
@@ -7492,7 +7492,7 @@ firebase-admin@9.4.2:
     "@firebase/performance-exp" "0.0.900"
     "@firebase/remote-config-compat" "0.0.900"
     "@firebase/remote-config-exp" "0.0.900"
-    "@firebase/storage" "0.4.7"
+    "@firebase/storage" "0.5.0"
 
 firebase-functions@3.13.0:
   version "3.13.0"
@@ -8333,15 +8333,10 @@ google-closure-compiler@20201102.0.1:
     google-closure-compiler-osx "^20201102.0.1"
     google-closure-compiler-windows "^20201102.0.1"
 
-google-closure-library@20200830.0.0:
-  version "20200830.0.0"
-  resolved "https://registry.npmjs.org/google-closure-library/-/google-closure-library-20200830.0.0.tgz#9f3807e5a4af55ebf2c8a22853d53b8da39a48e8"
-  integrity sha512-s4ma73K+FTeVywSMjVOxQ435t6kPfSlxEtIflq7Gabp2fxAnc9i8vUpvT8ZP/GH89LwSJReIaBGtrn72rfNC5Q==
-
-google-closure-library@20201006.0.0:
-  version "20201006.0.0"
-  resolved "https://registry.npmjs.org/google-closure-library/-/google-closure-library-20201006.0.0.tgz#5b2f325309566a63b97e22e57c71263fa98f22b4"
-  integrity sha512-jYTKvUBUkTFCO+PJLcqJrh4BNMHlInzPYpijg8lty/HIF1rH+qutHchlFdiSNad8HBVKIlMf3UzXRPXvmujrIg==
+google-closure-library@20210406.0.0:
+  version "20210406.0.0"
+  resolved "https://registry.npmjs.org/google-closure-library/-/google-closure-library-20210406.0.0.tgz#47d6036c1704661ad47cde2e35f19cc55e33e775"
+  integrity sha512-1lAC/KC9R2QM6nygniM0pRcGrv5bkCUrIZb2hXFxLtAkA+zRiVeWtRYpFWDHXXJzkavKjsn9upiffL4x/nmmVg==
 
 google-gax@^2.9.2:
   version "2.11.0"
@@ -14233,6 +14228,16 @@ selenium-webdriver@4.0.0-beta.1, selenium-webdriver@^4.0.0-alpha.7:
   version "4.0.0-beta.1"
   resolved "https://registry.npmjs.org/selenium-webdriver/-/selenium-webdriver-4.0.0-beta.1.tgz#db645b0d775f26e4e12235db05796a1bc1e7efda"
   integrity sha512-DJ10z6Yk+ZBaLrt1CLElytQ/FOayx29ANKDtmtyW1A6kCJx3+dsc5fFMOZxwzukDniyYsC3OObT5pUAsgkjpxQ==
+  dependencies:
+    jszip "^3.5.0"
+    rimraf "^2.7.1"
+    tmp "^0.2.1"
+    ws "^7.3.1"
+
+selenium-webdriver@^4.0.0-beta.2:
+  version "4.0.0-beta.3"
+  resolved "https://registry.npmjs.org/selenium-webdriver/-/selenium-webdriver-4.0.0-beta.3.tgz#8c29512a27ca9c1f95a96a9a8f488304c894390e"
+  integrity sha512-R0mGHpQkSKgIWiPgcKDcckh4A6aaK0KTyWxs5ieuiI7zsXQ+Kb6neph+dNoeqq3jSBGyv3ONo2w3oohoL4D/Rg==
   dependencies:
     jszip "^3.5.0"
     rimraf "^2.7.1"
