@@ -86,7 +86,6 @@
       "node":"./functions/dist/index.cjs.js",
       "default":"./functions/dist/index.esm.js"
     },
-    ,
     "./storage": {
       "node":"./storage/dist/index.cjs.js",
       "default":"./storage/dist/index.esm.js"
