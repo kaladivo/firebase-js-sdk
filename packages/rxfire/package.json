@@ -68,5 +68,28 @@
     "/rxfire-storage.js.map",
     "/rxfire-database.js",
     "/rxfire-database.js.map"
-  ]
+  ],
+  "exports": {
+    "./auth": {
+      "node":"./auth/dist/index.cjs.js",
+      "default":"./auth/dist/index.esm.js"
+    },
+    "./database": {
+      "node":"./database/dist/index.cjs.js",
+      "default":"./database/dist/index.esm.js"
+    },
+    "./firestore": {
+      "node":"./firestore/dist/index.cjs.js",
+      "default":"./firestore/dist/index.esm.js"
+    },
+    "./functions": {
+      "node":"./functions/dist/index.cjs.js",
+      "default":"./functions/dist/index.esm.js"
+    },
+    ,
+    "./storage": {
+      "node":"./storage/dist/index.cjs.js",
+      "default":"./storage/dist/index.esm.js"
+    }
+  }
 }
